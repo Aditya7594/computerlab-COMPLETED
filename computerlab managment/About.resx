@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema 
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>The "Computer Lab Management System" developed by Aditya Nayak 
+from Kristu Jayanti College (22BCAE05) is likely a software
+ solution designed to streamline the management and operations 
+of computer labs within educational institutions like Kristu Jayanti College.</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="PictureBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        K1f+7/z69R9tFJsE5unSsgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Moreover, the Computer Lab Management System may also 
+incorporate features to enhance security and ensure compliance 
+with institutional policies. This could include authentication 
+mechanisms to prevent unauthorized access, logging 
+of user activities for auditing purposes, and integration with existing campus 
+infrastructure such as LDAP(Lightweight Directory Access Protocol) for
+ centralized user authentication. 
+By providing a comprehensive solution for managing computer lab.</value>
+  </data>
+</root>
